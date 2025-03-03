@@ -6,4 +6,6 @@ def twenty_twenty_four():
     >>> twenty_twenty_four()
     2024
     """
-    return 2000 + 20 + 4
+    return 2024
+
+print(twenty_twenty_four())

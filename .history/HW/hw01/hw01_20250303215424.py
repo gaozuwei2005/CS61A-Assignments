@@ -92,13 +92,3 @@ def hailstone(n):
     """
     "*** YOUR CODE HERE ***"
 
-    cnt = 1;
-    print(n)
-    while n > 1:
-        if n % 2 == 0:
-            n //= 2
-        else:
-            n = n * 3 + 1
-        print(n)
-        cnt += 1
-    return cnt
